@@ -85,4 +85,5 @@ body{
 
 .instagram-button:focus, .twitter-button:focus, .linkedIn-button:focus, .frontend-mentor-button:focus, .github-button:focus{
   background-color: hsl(75, 94%, 57%);
+  border-style: none;
 }
