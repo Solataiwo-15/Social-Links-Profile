@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+} 
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding: 30px;
+  width: 320px;
+  height: 550px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.userpic{
+  border-radius: 75px;
+  width: 75px;
+  height: 75px;
+  margin-bottom: 20px;
+}
+
+.username{
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 9px;
+  color: hsl(0, 0%, 100%);
+}
+
+.user-location{
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 700;
+  color: hsl(75, 94%, 57%);
+}
+
+.occupation{
+  color: hsl(0, 0%, 100%);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.github-button,
+.frontend-mentor-button, 
+.linkedIn-button, 
+.twitter-button, 
+.instagram-button{
+  width: 100%;
+  height: 60px;
+  border-radius: 7px;
+  background-color: hsl(0, 0%, 20%);
+  border-style: none;
+  color: hsl(0, 0%, 100%);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.github-button:hover, .frontend-mentor-button:hover, .linkedIn-button:hover, .twitter-button:hover, .instagram-button:hover{
+  background-color: hsl(75, 94%, 57%);
+}
+
+.instagram-button:focus, .twitter-button:focus, .linkedIn-button:focus, .frontend-mentor-button:focus, .github-button:focus{
+  background-color: hsl(75, 94%, 57%);
+}
